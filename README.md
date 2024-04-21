@@ -20,9 +20,18 @@ cd aws-json-verifier
 ### 3. Run the verification script:
 Windows: 
 ```
-python aws-json-verifier.py
+python aws-json-verifier.py <json_file_path>
 ```
 Linux: 
 ```
-python3 aws-json-verifier.py
+python3 aws-json-verifier.py <json_file_path>
+```
+### 3. Test cases:
+Windows: 
+```
+python unit-tests.py <json_file_path>
+```
+Linux: 
+```
+python3 unit-tests.py <json_file_path>
 ```
